@@ -1,0 +1,11 @@
+h                     #Root (A20)
+  .F.  .F.  .F.  .F.  .F.  .F.  .F.  .F.  .F.  .F.  .F.  .F.  .F.  .F. 
+    0    0            # Lecture format (0:I5 (default), 1:I6 (for Transdens I6 version); Write 1D elments (0:No, 1:Yes) (2I5)
+ Mesh  GRI  INI  PAR  MCC  MHH  MSV  TIM  PSH  PSC  OBS  GNN  GNL  PLT #Options
+5             # Number of files with generic nodal data (if  GNN = .T.) (I5)
+REA           # Suffix of files with generic nodal data (rootSUFFIX.OUT) (A3)
+...           # Repeat as many times as needed.
+3             # Number of files with generic element data (if  GNN = .T.) (I5)
+REA           # Suffix of files with generic element data (rootSUFFIX.OUT) (A3)
+...           # Repeat as many times as needed
+

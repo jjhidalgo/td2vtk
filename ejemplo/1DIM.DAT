@@ -1,0 +1,43 @@
+TITLE                                                                                                                               
+No Name                                                                                                                             
+PRT_OPTIONS                                                                                                                         
+    2    1    1                                                                                                                     
+DEF_OPTIONS                                                                                                                         
+%IEQT  INV  TRS CNSF  RTS CNST IVAR ILAM IDIM IFLI ITLI IPRH IOGS                                                                   
+    3   -1    0    1    1    1    0    0    2    0    0    0    0                                                                   
+% IOSPARSE,IODIRECT,IODENS_INI, ITPTVAR,IOCONSRC
+    0    1    0    1    0
+DIMENSIONS                                                                                                                          
+%NUEL NUNP LXNE ISOT NBND NPAR NINT NFNT NPRF NDMT NFNL NTRA IFLS FMLF FMLT                                                         
+ 7860 8061    4    1  102    1    3    0    1    1    0    0    0                                                                   
+%NDVS NTOB NTND NTIT NCOV                                                                                                           
+    2    2    8    2    1                                                                                                           
+% Numero problemas
+% SMFL SMTP RDCH PBFL PBTP IOVRWC
+    0    0    0    1    1    2
+ZONE_NUMBERS                  
+%                              Disp Difu Poro  Lam  Ret Conc DMat
+    1    0    0    2    0    0    1    2    2    0    2    1    1                                                                                                              
+LOG_ESTIMATION_OPTIONS                                                                                                              
+    1    1    0    0    0    0    0    0    0    0    0    0    0              0                                                    
+OUTPUT_OPTIONS                                                                                                                      
+%IWRH IWRC IPLH IPLC IMHH IMCC ISEH ISEC ICMH ICMC IWPI IWIT IDAR                                                                   
+              2    2    1    1    0    0    1    0    1    0    0                                                                   
+MASS_BALANCE                                                                                                                        
+%BALH BALC BLGH BLGC BLDH                                                                                                           
+    1    1    1    1    0    0                                                                                                      
+OPTIMIZATION_PARAMETERS                                                                                                             
+%  XMARQ   NMIN NMAX    PHIMIN    PHIMAX    GMNOR1     GMNOR     DMINF    COSMIN                                                    
+ 0.000E+00    2    5 1.000E-01 9.000E-01 1.000E-15 1.000E-15 1.000E-18 1.000E-03                                                    
+%MXCO    PERMX1    PERMX2       EPS MXIT NMF1                                                                                       
+    1 1.000E+00 1.500E+00 1.000E-15   50 5000                                                                                       
+WEIGHTING_PARAMETERS                                                                                                                
+ 1.000E+02 1.000E+02 1.000E+00 0.000E+00 1.000E+00 1.000E+00 0.000E+00                                                              
+ 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00                                                              
+ 1.000E+00 1.000E+00 1.000E+00 1.000E+00                                                                                            
+IFLAGS                                                                                                                              
+%1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0                                                                        
+     0   1   0                           0   0                                                                                      
+                                                                                                                                    
+0                                                                                                                                   
+0                                                                                                                                   

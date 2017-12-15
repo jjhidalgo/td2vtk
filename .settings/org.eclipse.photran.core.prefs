@@ -1,0 +1,8 @@
+#Mon Dec 19 13:01:30 EST 2011
+EnableContentAssist=true
+EnableDeclView=true
+EnableHoverTip=true
+EnableVPG=true
+FortranIncludePaths=/td2vtk\n
+FortranModulePaths=/td2vtk\n
+eclipse.preferences.version=1
