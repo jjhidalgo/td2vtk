@@ -1,1 +1,1 @@
-This code converst the outout of the condes TRANSIN and TRANSDENS to vtk format.
+This code converts the output of the codes TRANSIN and TRANSDENS to vtk format.
